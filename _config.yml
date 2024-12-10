@@ -1,12 +1,39 @@
+# Informasi Situs
 title: IT Auditor Training
-description: Dokumen pelatihan IT Auditor
-baseurl: "" # Kosongkan jika ini repositori khusus untuk GitHub Pages
-theme: minima
+description: Pelatihan dan dokumentasi untuk audit SPBE
+baseurl: "" # Kosongkan jika ini adalah repositori root GitHub Pages
+url: "https://<username>.github.io" # Ganti <username> dengan username GitHub Anda
+
+# Markdown dan Permalink
 markdown: kramdown
+permalink: pretty
+
+# Tema
+theme: minima
+
+# Direktori File Statis
+assets:
+  css: /assets/css
+  js: /assets/js
+  images: /assets/images
+
+# Plugin Jekyll (Opsional, jika Anda ingin menambahkan)
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Navigasi Situs (Opsional, untuk tema yang mendukung navigasi)
 navigation:
-  - title: Beranda
-    url: /
-  - title: Daftar Risiko
-    url: /risiko
-  - title: Kontak
-    url: /kontak
+  - title: Home
+    url: "/"
+  - title: Day 1
+    url: "/Day-1/"
+  - title: Day 2
+    url: "/Day-2/"
+  - title: Day 3
+    url: "/Day-3/"
+
+# Informasi Tambahan (Opsional)
+author: 
+  name: IT Auditor
+  email: your-email@example.com

@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    min-height: 70vh;
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
